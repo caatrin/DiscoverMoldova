@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_general"
+            android:icon="@drawable/ic_chrome_reader_mode_black_24dp"
+            android:title="General" />
+        <item
+            android:id="@+id/nav_places"
+            android:icon="@drawable/ic_room_black_24dp"
+            android:title="Places" />
+        <item
+            android:id="@+id/nav_culture"
+            android:icon="@drawable/ic_games_black_24dp"
+            android:title="Culture" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_favs"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="Favorites" />
+    </group>
+
+</menu>
