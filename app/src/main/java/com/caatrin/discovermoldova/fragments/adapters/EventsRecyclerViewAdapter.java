@@ -18,7 +18,8 @@ import java.util.List;
 /**
  * Created by ecaterinagaleru on 1/28/16.
  */
-public class EventsRecyclerViewAdapter extends RecyclerView.Adapter<EventsRecyclerViewAdapter.EventsViewHolder> {
+public class EventsRecyclerViewAdapter
+        extends RecyclerView.Adapter<EventsRecyclerViewAdapter.EventsViewHolder> {
 
     private List<Event> mDataset;
 

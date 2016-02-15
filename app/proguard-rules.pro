@@ -21,3 +21,8 @@
     **[] $VALUES;
     public *;
 }
+
+-keep class com.firebase.** { *; }
+-keepnames class com.fasterxml.jackson.** { *; }
+-keepnames class javax.servlet.** { *; }
+-keepnames class org.ietf.jgss.** { *; }

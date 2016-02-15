@@ -16,6 +16,7 @@ import android.view.MenuItem;
 
 import com.caatrin.discovermoldova.fragments.CultureTabsFragment;
 import com.caatrin.discovermoldova.fragments.EventsFragment;
+import com.caatrin.discovermoldova.fragments.EventsTabsFragment;
 import com.caatrin.discovermoldova.fragments.FavoritesFragment;
 import com.caatrin.discovermoldova.fragments.FavoritesTabsFragment;
 import com.caatrin.discovermoldova.fragments.GeneralFragment;
@@ -106,7 +107,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_culture) {
             frag = new CultureTabsFragment();
         } else if (id == R.id.nav_events) {
-            frag = new EventsFragment();
+            frag = new EventsTabsFragment();
         } else if (id == R.id.nav_favs) {
             frag = new FavoritesTabsFragment();
         }
